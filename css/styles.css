@@ -1,0 +1,438 @@
+body {
+  margin: 0;
+}
+
+/* Disable ugly boxes around images in IE10 */
+a img{
+  border: 0px;
+}
+
+::-moz-selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+::selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+.mdl-cell--4-col, .mdl-cell--4-col-tablet.mdl-cell--4-col-tablet {
+
+  width: calc(100% - 20px);
+  margin-top:5px;
+
+}
+
+.pp-header .mdl-menu__container {
+  z-index: 50;
+  margin: 0 !important;
+}
+
+.pp-nav-logo {
+  background-color: #424242 !important;
+  padding: 1.5em;
+}
+
+.pp-nav a {
+  text-transform: uppercase;
+  color: #000 !important;
+}
+
+.pp-title {
+  color: #333;
+  font-size: 1.7em;
+}
+
+.mdl-textfield--expandable {
+  width: auto;
+}
+
+.pp-schedule-button {
+  margin-bottom: 50em;
+}
+
+.pp-fab {
+  position: absolute;
+  right: 20%;
+  bottom: -26px;
+  z-index: 3;
+  color: black !important;
+}
+
+.pp-mobile-title {
+  display: none !important;
+}
+
+.pp-logo-image {
+  height: 40px;
+  width: 40px;
+}
+
+
+.pp-header {
+  overflow: visible;
+  background-color: white;
+}
+
+.pp-header .material-icons {
+  color: #767777 !important;
+}
+
+.pp-header .mdl-layout__drawer-button {
+  background: transparent;
+  color: #767777;
+}
+
+.pp-header .mdl-navigation__link {
+  color: #757575;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.pp-drawer-separator {
+  height: 1px;
+  background-color: #dcdcdc;
+  margin: 8px 0;
+}
+
+.pp-drawer .mdl-navigation__link.mdl-navigation__link {
+  font-size: 14px;
+  color: #757575;
+}
+
+.pp-drawer span.mdl-navigation__link.mdl-navigation__link {
+  color: #8bc34a;
+}
+
+.pp-drawer .mdl-layout-title {
+  position: relative;
+  background: #673ab7;
+  height: 160px;
+  padding-left: 0px;
+}
+
+.pp-drawer .pp-logo-image {
+  position: center;
+  bottom: 16px;
+}
+
+.pp-banner {
+  position: top;
+  height: auto;
+  width: auto;
+  background: url('../images/pestbanner.jpg');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #e6f0e5;
+  
+}
+
+
+.logo-font {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: rgb(225, 240, 216);
+  font-weight: 500;
+}
+
+.pp-pestplanner {
+  font-family: sans-serif;
+  font-weight: 450;
+  color: #333;
+}
+
+.pp-slogan {
+  font-size: 32pt !important;
+  padding-bottom: 10px !important;
+  font-weight: 300;
+  text-align: center;  
+  color: rgb((24, 23, 23)3, 77, 77);
+  margin-top: 8%;
+}
+
+.pp-bold {
+  font-weight: 400;
+}
+
+.pp-sub-slogan {
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 28px;
+  text-align: center;  
+  color: rgb((24, 23, 23)3, 77, 77);
+}
+
+.pp-sub-why {
+  font-size: 1.2em;
+  margin: 0 auto;
+  margin-bottom: 4em;
+  max-width: 900px;
+}
+
+.pp-faq-container {
+  margin-top: 50px;
+  background-color: #eee;
+  min-height: 400px;
+}
+
+.pp-faq-title {
+  font-size: 1.8em;
+  padding: 1.8em;
+}
+
+.pp-faq {
+  padding: 1.8em;
+}
+
+.pp-feature-icon {
+  font-size: 4.8em;
+  color: #000 !important;
+}
+
+.pp-feature-container {
+  max-width: 900px;
+}
+
+.pp-contact {
+  height: 220px;
+  padding-top: 120px;
+  background: url('../images/road.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #111;
+}
+
+.pp-contact-actions {
+  margin-top: 20px;
+}
+
+.pp-screens {
+  text-align: right;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.pp-screen {
+  text-align: auto;
+}
+
+.pp-screen .pp-link {
+  margin-top: 16px;
+  display: block;
+  z-index: 2;
+}
+
+.pp-screen-section {
+  padding: 1.2em;
+}
+
+.pp-image-link {
+  text-decoration: none;
+}
+
+.pp-wear {
+  display: inline-block;
+  width: 160px;
+  margin-right: 32px;
+}
+
+.pp-wear .pp-screen-image {
+  width: 40%;
+  z-index: 1;
+}
+
+.pp-phone {
+  display: inline-block;
+  width: 64px;
+  margin-right: 48px;
+}
+
+.pp-phone .pp-screen-image {
+  width: 100%;
+  z-index: 1;
+}
+
+.pp-tablet {
+  display: inline-block;
+  width: 110px;
+  margin-right: 64px;
+}
+
+.pp-tablet .pp-screen-image {
+  width: 100%;
+  z-index: 1;
+}
+
+.pp-tablet .pp-link {
+  display: block;
+  z-index: 2;
+}
+
+.pp-tv {
+  display: inline-block;
+  width: 300px;
+  margin-right: 80px;
+}
+
+.pp-tv .pp-screen-image {
+  width: 100%;
+  z-index: 1;
+}
+
+.pp-auto {
+  display: inline-block;
+  width: 300px;
+  overflow: hidden;
+}
+
+.pp-auto .pp-screen-image {
+  display: block;
+  height: 300px;
+  z-index: 1;
+}
+
+.pp-wear-section {
+  position: relative;
+  background-size: cover;
+  height: 400px;
+}
+
+.pp-wear-band {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #37474f;
+}
+
+.pp-wear-band-text {
+  margin-left: 50px;
+  padding: 35px;
+  text-align: left;
+  color: white;
+}
+
+@media screen and (min-width: 320px) {
+  .pp-wear-band-text {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+
+.pp-wear-band-text p {
+  padding-top: 8px;
+}
+
+.pp-link {
+  text-decoration: none;
+  color: #8bc34a !important;
+}
+
+.pp-link:hover {
+  color: #7cb342 !important;
+}
+
+.pp-link .material-icons {
+  position: relative;
+  top: -1px;
+  vertical-align: middle;
+}
+
+.pp-alt-link {
+  text-decoration: none;
+  color: #64ffda !important;
+  font-size: 16px;
+}
+
+.pp-alt-link:hover {
+  color: #00bfa5 !important;
+}
+
+.pp-alt-link .material-icons {
+  position: relative;
+  top: 6px;
+}
+
+.pp-more-section {
+  padding: 80px 0;
+  max-width: 1044px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pp-more-section .pp-section-title {
+  margin-left: 12px;
+  padding-bottom: 24px;
+}
+
+.pp-link-menu:hover {
+  cursor: pointer;
+}
+
+.question {
+  color: black;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 1.2em;
+}
+
+.answer {
+  font-size: 0.9em;
+  margin-top: 0.3em;
+  color: #666;
+}
+
+.copyright-sub {
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.pp-digital {
+  background-color: #451e4f;
+  color: white;
+  padding: 2.5em;
+}
+
+/* Tablet Landscape */
+
+@media screen and (max-width: 1060px) {
+
+  #primary { width:67%; }
+
+  #secondary { width:30%; margin-left:3%;}  
+
+}
+
+/* Tabled Portrait */
+
+@media screen and (max-width: 768px) {
+
+  #primary { width:100%; }
+
+  #secondary { width:100%; margin:0; border:none; }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .pp-banner {
+    background-position: center;
+    background-size: 380%;
+  }
+
+  .pp-slogan {
+    font-size: 26pt !important;
+    text-align: center;  
+  }
+
+  .logo-font {
+  }
+
+  .hidden-on-phone {
+    display: none;
+  }
+
+
+}
