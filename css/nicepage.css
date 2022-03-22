@@ -36348,14 +36348,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-image-1 {
-  width: 203px;
-  height: 110px;
-  margin: 22px auto 0 0;
+  margin: auto auto 0 0;
 }
 
-.u-header .u-logo-image-1 {
-  width: 100%;
-  height: 100%;
+.header .logo img{
+  padding: 0px;
+  margin: 0px;
+  max-height: 80px;
 }
 
 .u-header .u-menu-1 {
