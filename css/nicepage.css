@@ -839,6 +839,31 @@ ol {
 .u-effect-wobble-left .u-slidesWrapper {
   perspective: 300px;
 }
+
+.u-button-style.u-white,
+.u-button-style.u-white[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: #ffffff !important;
+}
+.u-button-style.u-white:hover,
+.u-button-style.u-white[class*="u-border-"]:hover,
+.u-button-style.u-white:focus,
+.u-button-style.u-white[class*="u-border-"]:focus,
+.u-button-style.u-button-style.u-white:active,
+.u-button-style.u-button-style.u-white[class*="u-border-"]:active,
+.u-button-style.u-button-style.u-white.active,
+.u-button-style.u-button-style.u-white[class*="u-border-"].active,
+li.active > .u-button-style.u-button-style.u-white,
+li.active > .u-button-style.u-button-style.u-white[class*="u-border-"] {
+  color: #111111 !important;
+  background-color: #e6e6e6 !important;
+}
+
+.u-popupmenu-items.u-text-hover-color-1-dark-3 .u-nav-link:hover,
+.u-popupmenu-items.u-popupmenu-items.u-text-active-color-1-dark-3 .u-nav-link.active {
+  color: #292e33 !important;
+}
+
 .u-effect-wobble-left .u-over-slide {
   opacity: 0;
   transform: rotateY(130deg);
