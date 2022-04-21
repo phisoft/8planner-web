@@ -20,11 +20,12 @@ Table Of Contents:
 11. Testimonials
 12. Statistics
 13. Download
-14. Footer
-15. Copyright
-16. Back To Top Button
-17. Extra Pages
-18. Media Queries
+14. Contact
+15. Footer
+16. Copyright
+17. Back To Top Button
+18. Extra Pages
+19. Media Queries
 ******************************************/
 
 /*****************************************
@@ -1456,10 +1457,156 @@ screen and (-ms-high-contrast: none) {
 	display: none;
 }
 
+/**********************/
+/*     14. Contact     */
+/**********************/
 
+.basic-4 {
+	padding-top: 5rem;
+	padding-bottom: 8rem;
+	background-color: #f7fafd;
+}
+
+.basic-4 h2 {
+	margin-bottom: 0.875rem;
+	text-align: center;
+}
+
+#section h2 {
+	margin-bottom: 40px;
+	position: relative;
+	display: block;
+}
+
+#section p a {
+	color: #04AC9C;
+	text-decoration: none;
+}
+
+#section .wrap {
+	text-align: center;
+	width: 100%;
+}
+
+#section .box {
+	text-align: center;
+	margin: 5% 0 0 0;
+	width: 100%;
+}
+
+.contact-form {
+	width: 80%;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.05);
+	margin: 0 auto;
+	padding: 40px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.contact-form .input-block {
+	background-color: transparent;
+	border: none;
+	width: 100%;
+	height: 60px;
+	border-bottom: 2px solid #04AC9C;
+	margin: 0;
+	position: relative;
+	margin-bottom: 15px;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.contact-form .input-block.textarea {
+	height: auto;
+}
+
+.contact-form .input-block.textarea .form-control {
+	height: auto;
+	resize: none;
+}
+
+.contact-form .input-block label {
+	position: absolute;
+	left: 10px;
+	top: 25px;
+	display: block;
+	margin: 0;
+	font-weight: 400;
+	z-index: 1;
+	color: #777;
+	font-size: 16px;
+	line-height: 10px;
+}
+
+.contact-form .input-block .form-control {
+	background-color: transparent;
+	margin: 0;
+	outline: none;
+	border: none;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	height: auto;
+	padding: 30px 10px;
+	width: 100%;
+	position: relative;
+	z-index: 2;
+	font-size: 18px;
+	color: #333;
+}
+
+.contact-form .input-block .form-control:focus label {
+	top: 0;
+}
+
+.contact-form .square-button {
+	background-color: #04AC9C;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	-moz-border-radius: 2rem;
+	-webkit-border-radius: 2rem;
+	border-radius: 2rem;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	padding: 0 60px;
+	height: 60px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	width: 100%;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	margin-bottom: 5px;
+}
+
+.contact-form .square-button:hover,
+.contact-form .square-button:focus {
+	background-color: #04AC9C;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	transform: translateY(-4px);
+}
+
+.contact-wrap {
+	/* /* max-width: 80%; */
+	width: 100%;
+	/* -moz-transform: scale(0.8); */
+	padding: 15px;
+	background: #f7fafd;
+}
 
 /**********************/
-/*     14. Footer     */
+/*     15. Footer     */
 /**********************/
 .footer {
 	padding-top: 4rem;
@@ -1533,7 +1680,7 @@ screen and (-ms-high-contrast: none) {
 
 
 /*************************/
-/*     15. Copyright     */
+/*     16. Copyright     */
 /*************************/
 .copyright {
 	padding-bottom: 0.75rem;
@@ -1552,7 +1699,7 @@ screen and (-ms-high-contrast: none) {
 
 
 /**********************************/
-/*     16. Back To Top Button     */
+/*     17. Back To Top Button     */
 /**********************************/
 a.back-to-top {
 	position: fixed;
@@ -1654,8 +1801,38 @@ a:hover.back-to-top {
 
 
 /*****************************/
-/*     18. Media Queries     */
+/*     19. Media Queries     */
 /*****************************/
+
+/* Max-width 868px */
+@media (max-width: 868px) {
+
+	/* Start Contact */
+	.contact-form {
+		width: 65%;
+		padding: 40px;
+	}
+
+	/* End Contact */
+}
+
+/* Max-width 568 */
+@media (max-width: 568px) {
+
+	/* Start Contact */
+	.contact-form {
+		width: 85%;
+		padding: 40px;
+	}
+
+	.contact-form {
+		padding: 10px;
+	}
+
+	/* End Contact */
+}
+
+
 /* Min-width 768px */
 @media (min-width: 768px) {
 
@@ -1714,6 +1891,18 @@ a:hover.back-to-top {
 
 	/* end of download */
 
+	/* Contact */
+
+	.contact-form {
+		width: 85%;
+		padding: 40px;
+	}
+
+	.contact-wrap {
+		margin: auto;
+	}
+
+	/* End Contact */
 
 	/* Extra Pages */
 	.ex-header {
@@ -2006,6 +2195,9 @@ a:hover.back-to-top {
 	}
 
 	/* end of statistics */
+
+
+
 
 
 	/* Download */
@@ -2303,6 +2495,15 @@ a:hover.back-to-top {
 
 	/* end of download */
 
+	/* Contact */
+
+	.contact-form {
+		width: 95%;
+		padding: 40px;
+	}
+
+	/* End Contact */
+
 
 	/* Footer */
 	.footer .footer-col.first {
@@ -2334,6 +2535,16 @@ a:hover.back-to-top {
 	}
 
 	/* end of footer */
+
+	/* start contact form */
+
+	.contact-wrap {
+		width: 40%;
+		padding: 15px;
+		background: #f7fafd;
+	}
+
+	/* End contact form */
 
 	/* Gambar */
 	.pic1 {
