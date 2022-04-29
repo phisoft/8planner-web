@@ -1664,7 +1664,17 @@ TAB LAYOUT
 	.contact-container-left {
 		position: relative;
 		right: 0vh;
-		padding-top: 3vh;
+		padding-top: auto;
+	}
+}
+
+@media (max-width:600px) {
+	.contact-container-left {
+		position: unset;
+		right: 0vh;
+		margin: auto;
+		padding-top: 40px;
+		padding-bottom: 0px;
 	}
 }
 
@@ -1678,7 +1688,7 @@ TAB LAYOUT
 
 @media (max-width:768px) {
 	.contact-left-title {
-		line-height: 32px
+		line-height: 40px
 	}
 }
 
