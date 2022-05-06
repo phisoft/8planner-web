@@ -1827,6 +1827,19 @@ TAB LAYOUT
 	background-color: #fff
 }
 
+
+
+.contact-box-messages textarea {
+	outline: 0;
+	border-radius: 0;
+	width: 100%;
+	font-size: 14px;
+	padding: 15px 10px 15px 10px;
+	box-sizing: border-box;
+	border: 1px solid rgba(36, 36, 36, .3);
+	background-color: #fff
+}
+
 @media (hover:hover) {
 	.contact-input:hover {
 		border: 1px solid rgba(36, 36, 36, .6)
@@ -1837,10 +1850,8 @@ TAB LAYOUT
 	border: 1px solid #04AC9C
 }
 
-.contact-input:focus+.sc-lmoMRL {
-	top: 5px;
-	font-size: 12px;
-	line-height: 18px
+.contact-box-messages textarea:focus {
+	border: 1px solid #04AC9C
 }
 
 .contact-input::-webkit-credentials-auto-fill-button {
