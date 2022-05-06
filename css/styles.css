@@ -21,11 +21,12 @@ Table Of Contents:
 12. Statistics
 13. Download
 14. Contact
-15. Footer
-16. Copyright
-17. Back To Top Button
-18. Extra Pages
-19. Media Queries
+15. Partner
+16. Footer
+17. Copyright
+18. Back To Top Button
+19. Extra Pages
+20. Media Queries
 ******************************************/
 
 /*****************************************
@@ -1646,7 +1647,7 @@ TAB LAYOUT
 	max-width: 480px;
 	width: 100%;
 	box-sizing: border-box;
-	padding-top: 12vh;
+	padding-top: 20vh;
 	margin-left: 10vh;
 	position: relative;
 	right: 10vh;
@@ -1862,8 +1863,8 @@ TAB LAYOUT
 }
 
 .contact-pos {
-	margin-top: 150px;
-	margin-bottom: 150px;
+	margin-top: 110px;
+	margin-bottom: 110px;
 	display: flex;
 	-webkit-box-pack: justify;
 	justify-content: space-around;
@@ -1879,7 +1880,55 @@ TAB LAYOUT
 }
 
 /**********************/
-/*     15. Footer     */
+/*     15. Partner     */
+/**********************/
+.basic-partner-section {
+	position: relative;
+	overflow: hidden;
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background-color: #f7fafd;
+	text-align: center;
+}
+
+.partner-box {
+	margin: 0 auto;
+	position: relative;
+	max-width: fit-content;
+	width: 28em;
+	border-radius: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#partner img {
+	margin: 2em;
+	max-width: 100%;
+	width: 40%;
+}
+
+#partner h2 {
+	font-size: 2.5rem;
+	line-height: 4.25rem;
+}
+
+#partner p {
+	text-align: center;
+}
+
+#partner a {
+	text-decoration: none;
+	font-weight: bold;
+	transition: all 0.2s;
+}
+
+#partner a:hover {
+	color: #04ac9c;
+}
+
+
+/**********************/
+/*     16. Footer     */
 /**********************/
 .footer {
 	padding-top: 4rem;
@@ -1953,7 +2002,7 @@ TAB LAYOUT
 
 
 /*************************/
-/*     16. Copyright     */
+/*     17. Copyright     */
 /*************************/
 .copyright {
 	padding-bottom: 0.75rem;
@@ -1972,7 +2021,7 @@ TAB LAYOUT
 
 
 /**********************************/
-/*     17. Back To Top Button     */
+/*     18. Back To Top Button     */
 /**********************************/
 a.back-to-top {
 	position: fixed;
@@ -1994,7 +2043,7 @@ a:hover.back-to-top {
 
 
 /***************************/
-/*     17. Extra Pages     */
+/*     19. Extra Pages     */
 /***************************/
 .ex-header {
 	padding-top: 8rem;
@@ -2074,7 +2123,7 @@ a:hover.back-to-top {
 
 
 /*****************************/
-/*     19. Media Queries     */
+/*     20. Media Queries     */
 /*****************************/
 
 /* Max-width 868px */
@@ -2523,7 +2572,7 @@ a:hover.back-to-top {
 	h2 {
 		font-size: 2.5rem;
 		line-height: 3.25rem;
-		font-color: #333;
+		color: #333;
 	}
 
 	/* end of general styles */
