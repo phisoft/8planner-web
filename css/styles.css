@@ -1894,8 +1894,7 @@ TAB LAYOUT
 .partner-box {
 	margin: 0 auto;
 	position: relative;
-	max-width: fit-content;
-	width: 28em;
+	max-width: 10%;
 	border-radius: 2px;
 	padding-left: 10px;
 	padding-right: 10px;
