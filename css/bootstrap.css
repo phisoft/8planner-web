@@ -5769,10 +5769,8 @@ a.badge-dark.focus {
 }
 
 .media {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .media-body {
@@ -11057,7 +11055,7 @@ a.text-dark:focus {
   }
 
   abbr[title]::after {
-    content: " ("attr(title) ")";
+    content: " (" attr(title) ")";
   }
 
   pre {
