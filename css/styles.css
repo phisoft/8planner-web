@@ -2222,7 +2222,7 @@ a:hover.back-to-top {
 		opacity: 1;
 		top: 0;
 		text-decoration: none;
-		width: 80%;
+		width: 90%;
 		background: white;
 		color: #777;
 		text-align: center;
@@ -2328,7 +2328,7 @@ a:hover.back-to-top {
 		opacity: 1;
 		top: 0;
 		text-decoration: none;
-		width: 80%;
+		width: 100%;
 		background: white;
 		color: #777;
 		text-align: center;
@@ -2410,7 +2410,7 @@ a:hover.back-to-top {
 	}
 
 	.tabs {
-		width: 123%;
+		width: 100%;
 		display: inline-block;
 	}
 
