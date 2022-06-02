@@ -2703,9 +2703,10 @@ a:hover.back-to-top {
 	}
 
 	.header h1 {
-		font-size: 4rem;
+		font-size: 3.7rem;
 		line-height: 4.875rem;
 		letter-spacing: -1px;
+		font-weight: 700;
 	}
 
 	.header .deco-white-circle-1 {
