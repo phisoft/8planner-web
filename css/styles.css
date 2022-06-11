@@ -945,7 +945,6 @@ screen and (-ms-high-contrast: none) {
 TAB LAYOUT 
 *************************************/
 #tab {
-	height: 120vh;
 	background-color: #E8EFF6;
 }
 
@@ -1081,10 +1080,18 @@ TAB LAYOUT
 }
 
 .list-unstyled .media .fas {
-	color: #04ac9c;
+	color: #04AC9C;
 	font-size: 1.125rem;
 	line-height: 1.75rem;
 }
+
+
+#features .list-unstyled .media .fas {
+	color: #0275b2;
+	font-size: 1.8rem;
+	line-height: 1.75rem;
+}
+
 
 .media {
 	display: flex;
@@ -1352,10 +1359,6 @@ TAB LAYOUT
 	color: #50b9e8;
 }
 
-.basic-2 .fa-stack-1x {
-	color: #fff;
-}
-
 .basic-2 .media-body h4 {
 	margin-bottom: 0.25rem;
 }
@@ -1367,7 +1370,9 @@ TAB LAYOUT
 	margin-right: auto;
 	margin-bottom: 5rem;
 	margin-left: auto;
+	scale: 1
 }
+
 
 
 /***************************/
@@ -2188,10 +2193,6 @@ a:hover.back-to-top {
 		text-align: center;
 	}
 
-	#tab {
-		height: 135vh;
-	}
-
 	.tabs {
 		width: auto;
 		display: flex;
@@ -2299,12 +2300,8 @@ a:hover.back-to-top {
 
 /* Max-width 600px */
 @media (max-width: 600px) {
-	#tab {
-		height: 185vh;
-	}
-
 	.tabs {
-		width: auto;
+		width: 100%;
 		display: inline-block;
 	}
 
@@ -2390,10 +2387,6 @@ a:hover.back-to-top {
 @media (max-width: 568px) {
 
 	/* Start Contact */
-	#tab {
-		height: 150vh;
-	}
-
 	.tabs-desc {
 		padding-left: 40px;
 		padding-right: 40px;
@@ -2417,20 +2410,10 @@ a:hover.back-to-top {
 	/* End Contact */
 }
 
-@media (max-width: 418px) {
-	#tab {
-		height: 170vh;
-	}
-
-}
-
 /* End of max-width 568 */
 
 /* Max-width 390px */
 @media (max-width: 390px) {
-	#tab {
-		height: 195vh;
-	}
 
 	.tabs-container {
 		max-width: 1000px;
@@ -2505,6 +2488,12 @@ a:hover.back-to-top {
 		padding-right: 25px;
 		padding-left: 15px;
 	}
+}
+
+@media (max-width: 376px) {
+	/* #tab {
+		height: 195vh;
+	} */
 }
 
 /* End of Max-width 390px */
@@ -2608,6 +2597,17 @@ a:hover.back-to-top {
 
 /* Min-width 992px */
 @media (min-width: 992px) {
+
+	/* Image Feature basic-2*/
+	.basic-2 img {
+		scale: 0.85;
+	}
+
+
+	/* Tab Layout */
+	#tab {
+		height: 115vh;
+	}
 
 	/* General Styles */
 	.p-heading {
