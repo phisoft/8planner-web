@@ -1387,9 +1387,15 @@ TAB LAYOUT
 	height: auto;
 }
 
+@media (min-width: 1440px) {
+	.swiper-slide a img {
+		max-width: 150%;
+	}
+}
+
 .slider {
-	padding-top: 8rem;
-	padding-bottom: 8rem;
+	padding-top: 11rem;
+	padding-bottom: 11rem;
 	background-color: #e8eff6;
 }
 
@@ -1440,7 +1446,7 @@ TAB LAYOUT
 
 .slider .swiper-container {
 	position: static;
-	width: 90%;
+	width: 100%;
 	text-align: center;
 }
 
@@ -1463,7 +1469,7 @@ TAB LAYOUT
 }
 
 .slider .swiper-button-next {
-	right: 0.5rem;
+	right: -0.5rem;
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23777777'%2F%3E%3C%2Fsvg%3E");
 	background-size: 1.125rem 1.75rem;
 }

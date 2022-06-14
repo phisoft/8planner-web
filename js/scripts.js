@@ -74,15 +74,15 @@
     /* Image Slider - Swiper */
     var imageSlider = new Swiper('.image-slider', {
         autoplay: {
-            delay: 2800,
+            delay: 3000,
             disableOnInteraction: false,
         },
-        loop: false,
+        loop: true,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-        spaceBetween: 40,
+        spaceBetween: 240,
         slidesPerView: 2,
         breakpoints: {
             // when window is <= 516px
