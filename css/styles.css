@@ -3311,3 +3311,10 @@ a:hover.back-to-top {
 }
 
 /* end of min-width 1200px */
+
+@media (min-width:991px) {
+	.center-lg{
+		display: grid;
+		justify-items: center;
+	}
+}
