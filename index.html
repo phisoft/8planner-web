@@ -829,19 +829,18 @@
     <!-- Start Contact Section -->
     <div class="contanier-contact" id="contact">
         <div class="contact-pos">
-            <form autocomplete="off" class="contact-form" action="mailto:info@phisoft.my?subject=8PlannerDemo"
-                method="get">
+            <form id="contact-form" action="https://send.bah.my/phisoft" enctype="application/x-www-form-urlencoded" method="POST">
                 <div class="contact-title">Contact Us</div>
                 <div class="contact-box">
-                    <input class="contact-input" id="name" type="text" value="">
+                    <input name="name" class="contact-input" id="name" type="text" value="">
                     <div class="text-input-pos text-input-style">Full Name*</div>
                 </div>
                 <div class="contact-box">
-                    <input class="contact-input" id="email" type="email" value="">
+                    <input name="email" class="contact-input" id="email" type="email" value="">
                     <div class="text-input-pos text-input-style">Email*</div>
                 </div>
                 <div class="contact-box">
-                    <input class="contact-input" id="phone" type="tel" value="">
+                    <input name="phone" class="contact-input" id="phone" type="tel" value="">
                     <div class="text-input-pos text-input-style">Phone Number</div>
                 </div>
                 <div class="contact-box contact-box-messages">
