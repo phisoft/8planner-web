@@ -3320,6 +3320,46 @@ a:hover.back-to-top {
 }
 
 /* -------------------------------- */
+/*     Industries Section           */
+/* -------------------------------- */
+.industries-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.industries-section .row:first-child .col-lg-12 {
+    display: block;
+}
+
+.industries-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.industries-grid .card {
+    flex: 0 0 auto;
+    width: 200px;
+}
+
+@media (max-width: 768px) {
+    .industries-grid {
+        gap: 1rem;
+    }
+    
+    .industries-grid .card {
+        width: 160px;
+    }
+}
+
+@media (max-width: 480px) {
+    .industries-grid .card {
+        width: 140px;
+    }
+}
+
+/* -------------------------------- */
 /*     Design Refresh Overrides     */
 /* -------------------------------- */
 :root {
