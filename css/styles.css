@@ -1988,7 +1988,36 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 .btn-solid-reg {
-	margin-top: 1.5rem;
+margin-top: 1.5rem;
+}
+
+/* Privacy page spacing */
+.privacy-content .text-container {
+padding: 1.5rem 1.75rem;
+margin-bottom: 2rem;
+background-color: #ffffff;
+border-radius: 0.5rem;
+}
+
+.privacy-content .text-container h3 {
+margin-bottom: 0.875rem;
+}
+
+.privacy-content .text-container p,
+.privacy-content .text-container ol,
+.privacy-content .text-container ul {
+margin-bottom: 1rem;
+}
+
+.privacy-content .li-space-lg li {
+margin-bottom: 0.875rem;
+}
+
+.privacy-content .form-container {
+padding: 1.5rem 1.75rem;
+margin-top: 1rem;
+background-color: #ffffff;
+border-radius: 0.5rem;
 }
 
 
@@ -3398,6 +3427,85 @@ color: #eaf6f5;
 .copyright p,
 .copyright a {
 color: #12343b;
+}
+
+.site-footer {
+padding-top: 3.5rem;
+padding-bottom: 2.25rem;
+border-top: 1px solid rgba(18, 52, 59, 0.14);
+}
+
+.site-footer .footer-main {
+row-gap: 1.5rem;
+}
+
+.site-footer .footer-block h5 {
+margin-bottom: 0.9rem;
+font-weight: 700;
+letter-spacing: 0.02em;
+}
+
+.site-footer .footer-contact .media {
+align-items: flex-start;
+margin-bottom: 0.7rem;
+}
+
+.site-footer .footer-contact .media i {
+margin-top: 0.25rem;
+font-size: 0.95rem;
+color: #1f5864;
+}
+
+.site-footer .footer-contact .media span,
+.site-footer .footer-contact .media a {
+display: inline-block;
+line-height: 1.55;
+}
+
+.site-footer .footer-links ul li {
+margin-bottom: 0.45rem;
+}
+
+.site-footer .footer-links a {
+font-weight: 600;
+}
+
+.site-footer .social-list {
+display: flex;
+align-items: center;
+gap: 0.25rem;
+flex-wrap: wrap;
+}
+
+.site-footer .social-list .fa-stack {
+margin: 0;
+}
+
+.site-footer .social-list .fa-stack .fa-stack-2x {
+color: #1f5864;
+transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.site-footer .social-list .fa-stack:hover .fa-stack-2x {
+color: #12343b;
+transform: translateY(-2px);
+}
+
+@media (max-width: 767px) {
+.site-footer {
+padding-top: 2.5rem;
+padding-bottom: 1.75rem;
+text-align: center;
+}
+
+.site-footer .footer-contact .media {
+justify-content: center;
+text-align: left;
+}
+
+.site-footer .social-list {
+justify-content: center;
+}
 }
 
 .cards-1 .card {
