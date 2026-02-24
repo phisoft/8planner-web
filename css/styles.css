@@ -1776,6 +1776,24 @@ TAB LAYOUT
 /**********************/
 
 /**********************/
+/*  Client logos      */
+/**********************/
+.client-logos-heading {
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #999;
+	margin-bottom: 1.5rem;
+	font-weight: 600;
+}
+
+.home-v2-logo {
+	max-height: 4rem;
+	width: auto;
+	object-fit: contain;
+}
+
+/**********************/
 /*     16. Footer     */
 /**********************/
 .footer {
